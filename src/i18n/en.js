@@ -22,5 +22,11 @@ export default {
   plsEnterProductDescription: 'Enter Product Description',
   plsEnterProductMaterials: 'Enter Product Materials',
   plsEnterProductAdjective: 'Enter Product Adjective',
-  appTitle: 'RN',
+  appTitle: 'Task App',
+  someThingWentToWrong: 'Something went to wrong',
+  deleteProduct: 'Delete Product',
+  areYouSureToDeleteProduct: 'Are you sure to delete this product?',
+  productAddedSuccessfully: 'Product added successfully',
+  productUpdatedSuccessfully: 'Product updated successfully',
+  noProductsFound: 'No products found',
 };

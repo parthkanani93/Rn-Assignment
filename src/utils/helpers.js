@@ -16,10 +16,22 @@ const showPopupWithOkAndCancel = (title, message, okClicked, cancelClicked) => {
       style: 'cancel',
     },
     {
-      text: 'ok',
+      text: 'OK',
       onPress: () => okClicked && okClicked(),
     },
   ]);
 };
 
-export {showPopupWithOk, showPopupWithOkAndCancel};
+// validate
+const validateField = (val, msg) => {
+  if (!val) {
+    return {
+      status: false,
+      msg: msg,
+    };
+  } else {
+    return {status: true, msg: ''};
+  }
+};
+
+export {showPopupWithOk, showPopupWithOkAndCancel, validateField};

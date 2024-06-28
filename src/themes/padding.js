@@ -38,8 +38,8 @@ export default StyleSheet.create({
   pb5: {
     paddingBottom: getHeight(5),
   },
-  pb50: {
-    paddingBottom: getHeight(50),
+  pb90: {
+    paddingBottom: getHeight(90),
   },
   ph0: {
     paddingHorizontal: 0,

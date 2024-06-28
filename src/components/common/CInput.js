@@ -141,6 +141,6 @@ const localStyle = StyleSheet.create({
     textAlign: 'left',
     ...typography.fontSizes.f12,
     ...styles.mt5,
-    ...styles.ml10,
+    ...styles.ml5,
   },
 });
