@@ -23,8 +23,8 @@ export default function StackNavigation() {
         component={StackRoute.AddProductScreen}
       />
       <Stack.Screen
-        name={StackNav.EditProductScreen}
-        component={StackRoute.EditProductScreen}
+        name={StackNav.ProductDetailScreen}
+        component={StackRoute.ProductDetailScreen}
       />
     </Stack.Navigator>
   );

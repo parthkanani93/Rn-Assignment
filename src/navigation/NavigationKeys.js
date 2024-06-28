@@ -1,5 +1,5 @@
 export const StackNav = {
   HomeScreen: 'HomeScreen',
   AddProductScreen: 'AddProductScreen',
-  EditProductScreen: 'EditProductScreen',
+  ProductDetailScreen: 'ProductDetailScreen',
 };

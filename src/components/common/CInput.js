@@ -55,7 +55,7 @@ export default CInput = props => {
         style={[
           localStyle.inputContainer,
           {
-            borderColor: _errorText ? colors.alertColor : colors.primary,
+            borderColor: _errorText ? colors.alertColor : colors.black,
             height: multiline ? moderateScale(75) : moderateScale(50),
           },
           inputContainerStyle,
@@ -128,13 +128,12 @@ const localStyle = StyleSheet.create({
   },
   inputContainer: {
     borderWidth: moderateScale(1),
-    borderRadius: moderateScale(6),
+    borderRadius: moderateScale(8),
     ...styles.rowSpaceBetween,
     ...styles.mt5,
     width: '100%',
   },
   labelContainer: {
-    ...styles.mt10,
     ...styles.rowSpaceBetween,
     ...styles.mb5,
   },

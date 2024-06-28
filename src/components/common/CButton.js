@@ -26,9 +26,7 @@ export default function CButton({
         localStyle.btnContainer,
         styles.rowCenter,
         containerStyle,
-        bgColor
-          ? {backgroundColor: bgColor}
-          : {backgroundColor: colors.primary},
+        bgColor ? {backgroundColor: bgColor} : {backgroundColor: colors.black},
       ]}
       onPress={onPress}
       {...props}>
